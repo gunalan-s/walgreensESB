@@ -1,62 +1,124 @@
 <html>
 <head>
-<font face="Century gothic" color="white" align="right">
+<font face="Century gothic" color="white" align="center">
 <h1>PROD</h1>
 </font>
  <title>PROD SERVERS</title>
  <style>
-  ul.a, ul.a,ul.b,ul.c,ul.d{
+@keyframes mymove {
+    from {left: 0;}
+    to {left: 1000px;}
+}
+body{
+size:2000px;
+filter:alpha(opacity=50);
+background:linear-gradient(to right bottom,black,silver);
+img
+}
+  ul.aa, ul.a,ul.b,ul.c,ul.d,#home{
+position: relative;
+padding:10px;
+line-height:30px;
   text-color:white;
   list-style-type:none;
   text-align:left;
-  background:grey;
+  background:url("/Cloud-Server-Free-PNG-Image.png");
   position: relative;
   width:200px;
-  height:70px;
-  background:#grey;
+  height:130px;
  border: 1px solid BLACK;
 font-family: "Century gothic", Times, serif;
-font-size: 40px;
+font-size: 16px;
 text-align:center;
-background:green;
 box-shadow: 5px 5px 5px black;
 box-shadow: inset 5px 5px 5px silver;
 border-top-left-radius:10px;
 border-top-right-radius:10px;
 border-bottom-left-radius:10px;
 border-bottom-right-radius:10px;
-  }
- </style>
+background: url("Cloud-Server-Free-PNG-Image.png") no-repeat left top 75px;
+}
+ul.aa:hover,ul.aa:active,
+ul.a:hover,ul.a:active,
+ul.b:hover,ul.b:active,
+ul.c:hover,ul.c:active,
+ul.d:hover,ul.d:active{
+background-color: black;
+}
+ul.aa{
+display:block;
+top:50px;
+left:100px;
+
+}
+ul.a{
+top:-120px;
+left:450px;
+}
+ul.b{
+top:0px;
+left:100px;
+}
+ul.c{
+top:-170px;
+left:450px;
+}
+ul.d{
+line-height:30px;
+padding:40px;
+top:-630px;
+left:800px;
+height:350px;
+background: url("Cloud-Server-Free-PNG-Image.png") no-repeat left top 230px;
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+a:hover, a:active {
+color: red;
+}
+#home{
+left:1000px;
+top:-1200px;
+height:30px;
+width:120px;
+animation: mymove 1s;
+animation-fill-mode: forwards;
+}
+</style>
 </head>
  
-<body bgcolor="black" background="http://www.iglou.com/wp-content/uploads/2012/10/photodune-2392898-server-m.jpg">
+<body>
 <font color="white" face="Comic sans" align="right">
+
  <ul class="aa">
-  <img src="http://www.pngall.com/wp-content/uploads/2016/04/Cloud-Server-Free-PNG-Image.png" width="40" height="40">
-  <li><a href="/walgreensESB/ponemq1.html">PONEMQ1</a><br></li>
+  
+  <a href="/walgreensESB/ponemq1.html"><li>PONEMQ1</li></a>
   <li><a href="/walgreensESB/ponemq1.html">PONEMQ2</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PONEMQ3</a><br></li>
  </ul>
  <ul class="a">
-  <img src="http://www.pngall.com/wp-content/uploads/2016/04/Cloud-Server-Free-PNG-Image.png" width="40" height="40">
+  
   <li><a href="/walgreensESB/ponemq1.html">PAAP-W2ESB01</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PAAP-W2ESB02</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PAAP-W2ESB03</a><br></li>
  </ul>
   <ul class="b">
-  <img src="http://www.pngall.com/wp-content/uploads/2016/04/Cloud-Server-Free-PNG-Image.png" width="40" height="40">
+  
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM1</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM2</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM3</a><br></li>
    </ul>
    <ul class="c">
-  <img src="http://www.pngall.com/wp-content/uploads/2016/04/Cloud-Server-Free-PNG-Image.png" width="40" height="40">
+  
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM51</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM52</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PNPIAM53</a><br></li>
     </ul>
     <ul class="d"> 
-  <img src="http://www.pngall.com/wp-content/uploads/2016/04/Cloud-Server-Free-PNG-Image.png" width="40" height="40">
+  
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP01</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP02</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP03</a><br></li>
@@ -64,7 +126,10 @@ border-bottom-right-radius:10px;
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP05</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP06</a><br></li>
   <li><a href="/walgreensESB/ponemq1.html">PRDAPP07</a><br></li>
- </ul> 
+ </ul>
+<a href="/index.html">
+<div id="home">Home</div>
+</a>
  </font>
 </body>
 </html>
